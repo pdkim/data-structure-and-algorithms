@@ -1,5 +1,5 @@
 function insertShiftArray() {
-
+  return null;
 }
 
-insertShiftArray();
+module.exports = insertShiftArray;
