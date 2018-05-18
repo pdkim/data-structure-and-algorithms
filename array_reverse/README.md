@@ -5,4 +5,4 @@ Create a function that reverses the order in an array.
 Without using any built in methods, return an array in the reverse order than the original array.
 
 ## Solution
-![whiteboard](../assets/philk-reverse-array.JPG)
+![whiteboard](assets/philk-reverse-array.JPG)
