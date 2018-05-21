@@ -4,7 +4,7 @@
   "description": "Whiteboard assignments go here",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint **/*.js",
+    "lint": "eslint *.js",
     "test": "jest --verbose --coverage"
   },
   "repository": {
