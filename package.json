@@ -1,0 +1,24 @@
+{
+  "name": "data-structure-and-algorithms",
+  "version": "1.0.0",
+  "description": "Whiteboard assignments go here",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdkim/data-structure-and-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdkim/data-structure-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/pdkim/data-structure-and-algorithms#readme",
+  "dependencies": {
+    "jest": "^22.4.3",
+    "lint": "^1.1.2"
+  }
+}
