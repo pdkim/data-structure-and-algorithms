@@ -7,4 +7,4 @@ Using a 2D array, return the largest product of any 2 numbers within the array.
 - must account for any size of a 2D array.
 
 ## Solution
-![whiteboard](assets/)
+![whiteboard](assets/array_adjacent_product.JPG)
