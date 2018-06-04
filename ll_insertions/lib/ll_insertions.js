@@ -1,56 +1,63 @@
 'use strict';
 
+const Node = require('./node.js');
+
 class Insertions {
-  //enter code here
 
   constructor() {
-    this.head = null;
+    this.root = null;
   }
 
-  append(val) {
-    const node = new Node(val);
-    if(!this.head) {
-      return this;
+  append(value) {
+    if(!this.root) {
+      this.root = new Node(value);
+    } else {
+      let node = this.root;
+      
+      while(node.next) {
+        node = node.next;
+      }
+      node.next = new Node(value);
     }
-    let currentNode = this.head;
-    while(currentNode.next) {
-      currentNode = currentNode.next;
-    }
-    this.head = node;
-    return this;
   }
 
-  appendBefore(val, newVal) {
-    const node = new Node(newVal);
-    if(this.head.value === val) {
-      node.next = this.head;
-      this.head = node;
-      return this;
+  appendBefore(value, newVal) {
+    let node = new Node(newVal);
+
+    let currentNode = this.root;
+
+    if (this.root.value === value) {
+      this.root = node;
+      this.root.next = currentNode;
+      return;
     }
-    let currentNode = this.head;
-    while(currentNode.next.value !== val) {
-      currentNode = currentNode.next;
-      if(currentNode.value !== val && !currentNode.next) {
-        throw new Error('Expected value does not exist');
+
+    while (currentNode.next) {
+      if (currentNode.next.value === value) {
+        break;
+      } else {
+        currentNode = currentNode.next;
       }
     }
     node.next = currentNode.next;
     currentNode.next = node;
-    return this;
   }
 
-  appendAfter(val, newVal) {
-    const node = new Node(newVal);
-    let currentNode = this.head;
-    while(currentNode.value !== val) {
-      currentNode= currentNode.next;
-      if(currentNode.value !== val && !currentNode.next) {
-        throw new Error('Expected value does not exist');
+  appendAfter(value, newVal) {
+    let node = new Node(newVal);
+
+    let currentNode = this.root;
+
+    while (currentNode) {
+      
+      if (currentNode.value === value) {
+        node.next = currentNode.next;
+        currentNode.next = node;
+        break;
       }
     }
-    node.next = currentNode.next;
-    currentNode.next = node;
-    return this;
+    
+    currentNode = currentNode.next;
   }
 }
 
