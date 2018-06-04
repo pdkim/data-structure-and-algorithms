@@ -26,7 +26,7 @@ describe('insertion should ', () => {
     expect(list.root.next.next.value).toEqual(2);
   });
 
-  it('testing', () => {
+  xit('testing', () => {
     //third test
     list.append(1);
     list.append(2);

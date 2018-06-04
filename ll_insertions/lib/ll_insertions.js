@@ -9,12 +9,12 @@ class Insertions {
   }
 
   append(value) {
-    if(!this.root) {
+    if (!this.root) {
       this.root = new Node(value);
     } else {
       let node = this.root;
-      
-      while(node.next) {
+
+      while (node.next) {
         node = node.next;
       }
       node.next = new Node(value);
@@ -44,19 +44,20 @@ class Insertions {
   }
 
   appendAfter(value, newVal) {
+    
     let node = new Node(newVal);
 
     let currentNode = this.root;
 
-    while (currentNode) {
-      
+    while(currentNode) {
+
       if (currentNode.value === value) {
         node.next = currentNode.next;
         currentNode.next = node;
         break;
       }
     }
-    
+
     currentNode = currentNode.next;
   }
 }
