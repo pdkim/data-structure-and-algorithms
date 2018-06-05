@@ -2,13 +2,13 @@
 
 function kthElement(head, k) {
   if (!head || k < 0) {
-    return undefined;
+    return 'Exception';
   }
 
   let current = head;
   let kthCurrent = head;
 
-  for (var i = 0; i < k - 1; i++) {
+  for (let i = 0; i < k - 1; i++) {
     current = current.next;
     if (!current) {
       return undefined;
