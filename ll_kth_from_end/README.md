@@ -8,4 +8,4 @@ Find the node at the kth position starting from the end of the linked list.
   - if not found, return 'exception'.
 
 ## Solution
-![whiteboard](assets/)
+![whiteboard](assets/kth_from_end.JPG)
