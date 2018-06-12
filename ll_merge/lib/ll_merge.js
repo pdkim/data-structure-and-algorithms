@@ -10,8 +10,8 @@ class Node {
 
 class Merge {
   constructor() {
-    this.head = null,
-    this.foot = null,
+    this.head = null;
+    this.foot = null;
   }
 
   append(value) {
@@ -22,7 +22,6 @@ class Merge {
     }
     else {
       this.foot.next = node;
-      node.previous = this.foot;
       this.foot = node;
 
     }
@@ -30,12 +29,18 @@ class Merge {
 
   combine(listA, listB) {
     let currNode = listA.head;
-    for(let i = 0; i < listB.length; i++) {
-      let nextNode = currNode.next;
-      currNode.next = listB[i];
-      currNode = currNode.next;
-      currNode.next = nextNode;
-      currNode = currNode.next;
+    for(let i = 0; i < listB.length -1; i++) {
+      if(currNode.next === null) {
+        currNode.next = listB[i];
+      }
+      else {
+        let nextNode = currNode.next;
+        console.log(listB[i]);
+        currNode.next = listB[i];
+        currNode = currNode.next;
+        currNode.next = nextNode;
+        currNode = currNode.next;
+      }
     }
     return listA;
   }
