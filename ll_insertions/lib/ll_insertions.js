@@ -1,6 +1,11 @@
 'use strict';
 
-const Node = require('./node.js');
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+  }
+}
 
 class Insertions {
 
@@ -52,13 +57,16 @@ class Insertions {
     while(currentNode) {
 
       if (currentNode.value === value) {
-        node.next = currentNode.next;
+        let oldNext = currentNode.next;
+        node.next = oldNext;
         currentNode.next = node;
         break;
       }
+      else{currentNode = currentNode.next;}
     }
 
-    currentNode = currentNode.next;
+    // currentNode = currentNode.next;
+    return currentNode;
   }
 }
 

@@ -26,14 +26,13 @@ describe('insertion should ', () => {
     expect(list.root.next.next.value).toEqual(2);
   });
 
-  xit('testing', () => {
+  it('append a new node after a specified node', () => {
     //third test
     list.append(1);
     list.append(2);
     list.append(3);
     list.appendAfter(2, 5);
-    console.log(list);
-    expect(list.root.next.next.value).toEqual(5);
-    expect(list.root.next.next.next.value).toEqual(3);
+    expect(list.root.next.next.next.value).toEqual(5);
+    expect(list.root.next.next.next.next.value).toEqual(3);
   });
 });
