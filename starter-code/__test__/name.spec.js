@@ -1,6 +1,7 @@
 'use strict';
 
 const name = require('../lib/name.js');
+console.log(name);
 
 describe('this is hard', () => {
 
