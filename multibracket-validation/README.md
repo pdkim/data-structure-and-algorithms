@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/pdkim/data-structure-and-algorithms.svg?branch=multibracket-validation)](https://travis-ci.com/pdkim/data-structure-and-algorithms)
+
 # Multi-bracket Validation
 Create a function that will be able to determine if all brackets in the string are complete sets.  IE: {}, (), [].  This should return a boolean as its response.  If the first character is a closed bracket, it should return false.
 
