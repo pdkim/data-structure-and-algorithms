@@ -2,7 +2,7 @@
 
 const LargestProduct = require('../lib/array_adjacent_product.js');
 
-describe('Lergest Product', () => {
+xdescribe('Lergest Product', () => {
 
   xit('should return highest product of adjacent numbers in the same row', () => {
     //first test

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1528853273226" clover="3.2.0">
-  <project timestamp="1528853273227" name="All files">
-    <metrics statements="124" coveredstatements="35" conditionals="32" coveredconditionals="6" methods="19" coveredmethods="5" elements="175" coveredelements="46" complexity="0" loc="124" ncloc="124" packages="8" files="8" classes="8">
+<coverage generated="1530478120379" clover="3.2.0">
+  <project timestamp="1530478120379" name="All files">
+    <metrics statements="141" coveredstatements="25" conditionals="40" coveredconditionals="7" methods="22" coveredmethods="3" elements="203" coveredelements="35" complexity="0" loc="141" ncloc="141" packages="11" files="11" classes="11">
       <package name="array_adjacent_product.lib">
         <metrics statements="16" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <file name="array_adjacent_product.js" path="C:\Users\Phillip\codefellows\401\data-structure-and-algorithms\array_adjacent_product\lib\array_adjacent_product.js">
@@ -51,6 +51,13 @@
           <line num="19" count="1" type="stmt"/>
         </file>
       </package>
+      <package name="fifo_animal_shelter.lib">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="fifo_animal_shelter.js" path="C:\Users\Phillip\codefellows\401\data-structure-and-algorithms\fifo_animal_shelter\lib\fifo_animal_shelter.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="10" count="1" type="stmt"/>
+        </file>
+      </package>
       <package name="ll_detect_loop.lib">
         <metrics statements="24" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="0"/>
         <file name="ll_detect.js" path="C:\Users\Phillip\codefellows\401\data-structure-and-algorithms\ll_detect_loop\lib\ll_detect.js">
@@ -82,40 +89,40 @@
         </file>
       </package>
       <package name="ll_insertions.lib">
-        <metrics statements="32" coveredstatements="28" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="5"/>
+        <metrics statements="32" coveredstatements="2" conditionals="8" coveredconditionals="0" methods="5" coveredmethods="1"/>
         <file name="ll_insertions.js" path="C:\Users\Phillip\codefellows\401\data-structure-and-algorithms\ll_insertions\lib\ll_insertions.js">
-          <metrics statements="32" coveredstatements="28" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="5"/>
-          <line num="5" count="11" type="stmt"/>
-          <line num="6" count="11" type="stmt"/>
+          <metrics statements="32" coveredstatements="2" conditionals="8" coveredconditionals="0" methods="5" coveredmethods="1"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
           <line num="13" count="1" type="stmt"/>
-          <line num="17" count="9" type="cond" truecount="2" falsecount="0"/>
-          <line num="18" count="1" type="stmt"/>
-          <line num="20" count="8" type="stmt"/>
-          <line num="22" count="8" type="stmt"/>
-          <line num="23" count="31" type="stmt"/>
-          <line num="25" count="8" type="stmt"/>
-          <line num="30" count="1" type="stmt"/>
-          <line num="32" count="1" type="stmt"/>
-          <line num="34" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
           <line num="35" count="0" type="stmt"/>
           <line num="36" count="0" type="stmt"/>
           <line num="37" count="0" type="stmt"/>
-          <line num="40" count="1" type="stmt"/>
-          <line num="41" count="1" type="cond" truecount="1" falsecount="1"/>
-          <line num="42" count="1" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="41" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="42" count="0" type="stmt"/>
           <line num="44" count="0" type="stmt"/>
-          <line num="47" count="1" type="stmt"/>
-          <line num="48" count="1" type="stmt"/>
-          <line num="53" count="1" type="stmt"/>
-          <line num="55" count="1" type="stmt"/>
-          <line num="57" count="1" type="stmt"/>
-          <line num="59" count="3" type="cond" truecount="2" falsecount="0"/>
-          <line num="60" count="1" type="stmt"/>
-          <line num="61" count="1" type="stmt"/>
-          <line num="62" count="1" type="stmt"/>
-          <line num="63" count="1" type="stmt"/>
-          <line num="65" count="2" type="stmt"/>
-          <line num="69" count="1" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="62" count="0" type="stmt"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="65" count="0" type="stmt"/>
+          <line num="69" count="0" type="stmt"/>
           <line num="74" count="1" type="stmt"/>
         </file>
       </package>
@@ -165,6 +172,34 @@
           <line num="42" count="0" type="stmt"/>
           <line num="45" count="0" type="stmt"/>
           <line num="50" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="multibracket-validation.lib">
+        <metrics statements="15" coveredstatements="14" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>
+        <file name="multi-bracket-validation.js" path="C:\Users\Phillip\codefellows\401\data-structure-and-algorithms\multibracket-validation\lib\multi-bracket-validation.js">
+          <metrics statements="15" coveredstatements="14" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>
+          <line num="4" count="22" type="stmt"/>
+          <line num="9" count="10" type="stmt"/>
+          <line num="11" count="10" type="stmt"/>
+          <line num="12" count="10" type="stmt"/>
+          <line num="18" count="10" type="stmt"/>
+          <line num="20" count="87" type="cond" truecount="2" falsecount="0"/>
+          <line num="21" count="25" type="stmt"/>
+          <line num="22" count="62" type="cond" truecount="2" falsecount="0"/>
+          <line num="23" count="24" type="cond" truecount="2" falsecount="0"/>
+          <line num="24" count="2" type="stmt"/>
+          <line num="25" count="22" type="cond" truecount="1" falsecount="1"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="28" count="22" type="stmt"/>
+          <line num="33" count="8" type="stmt"/>
+          <line num="38" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="queue_with_stacks.lib">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <file name="queue_w_stacks.js" path="C:\Users\Phillip\codefellows\401\data-structure-and-algorithms\queue_with_stacks\lib\queue_w_stacks.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="12" count="1" type="stmt"/>
         </file>
       </package>
       <package name="starter-code.lib">

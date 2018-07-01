@@ -1,6 +1,6 @@
 const BinarySearch = require('./array_binary_search.js');
 
-describe('Return the index of the array element that matches the search word', () => {
+xdescribe('Return the index of the array element that matches the search word', () => {
   xit('return the index of the array element that matches the keyword value', () => {
     let actual = BinarySearch([4,8,15,16,23,42], 15);
     let expected = 2;

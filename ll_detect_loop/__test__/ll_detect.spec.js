@@ -2,7 +2,7 @@
 
 const List = require('../lib/ll_detect.js');
 
-describe('Detect module', () => {
+xdescribe('Detect module', () => {
 
   xit('should determine that a loop does not exist by returning false', () => {
     let newList = new List;

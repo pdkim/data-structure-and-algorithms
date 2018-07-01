@@ -19,7 +19,7 @@ const list = {
   },
 };
 
-describe('this is hard', () => {
+xdescribe('this is hard', () => {
 
   xit('testing', () => {
     //first test
