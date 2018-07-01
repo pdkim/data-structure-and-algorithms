@@ -2,7 +2,7 @@
 
 const Merge = require('../lib/ll_merge.js');
 
-describe('Merge module', () => {
+xdescribe('Merge module', () => {
 
   xit('should combine 2 linked lists into one', () => {
     let listA = new Merge;

@@ -4,7 +4,7 @@ const Insertions = require('../lib/ll_insertions.js');
 
 const list = new Insertions();
 
-describe('insertion should ', () => {
+xdescribe('insertion should ', () => {
 
   it('append a new node at the end of the list', () => {
     //first test

@@ -1,12 +1,12 @@
 'use strict';
 
-const name = require('../lib/fifo_animal_shelter.js');
-console.log(name);
+
+const queue = require('../lib/queue_w_stacks.js');
 
 xdescribe('this is hard', () => {
 
   xit('testing', () => {
-    //first test
+    expect(queue).toBeDefined();
   });
 
   xit('testing', () => {

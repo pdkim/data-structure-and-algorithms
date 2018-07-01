@@ -1,6 +1,6 @@
 const insertShiftArray = require('./array_shift.js');
 
-describe('add value to array and maintain lowest to highest order', () => {
+xdescribe('add value to array and maintain lowest to highest order', () => {
   xit('by placing the value at index of 2 in the array', () => {
     let actual = insertShiftArray([2, 4, 6, 8], 5);
     let expected = [2, 4, 5, 6, 8];
