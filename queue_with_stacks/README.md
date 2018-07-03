@@ -6,4 +6,4 @@ Create two methods for a queue that follows the enqueue and dequeue format/behav
 - needs a dequeue function that follows FIFO deletion to an element
 
 ## Solution
-![whiteboard](assets/)
+![whiteboard](assets/queue_with_stacks.JPG)
