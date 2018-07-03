@@ -3,7 +3,7 @@
 const brackets = require('../lib/multi-bracket-validation.js');
 
 
-describe('Multi-bracket-validation should', () => {
+xdescribe('Multi-bracket-validation should', () => {
 
 
   it('return a boolean as a response', () => {
