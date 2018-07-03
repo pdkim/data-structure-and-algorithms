@@ -3,7 +3,7 @@
 const name = require('../lib/name.js');
 console.log(name);
 
-describe('this is hard', () => {
+xdescribe('this is hard', () => {
 
   xit('testing', () => {
     //first test

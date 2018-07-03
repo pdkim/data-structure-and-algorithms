@@ -3,7 +3,7 @@
 
 const queue = require('../lib/queue_w_stacks.js');
 
-describe('Queue module should', () => {
+xdescribe('Queue module should', () => {
 
   it('add an element to the front of the list', () => {
 
