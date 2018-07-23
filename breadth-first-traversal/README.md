@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/pdkim/data-structure-and-algorithms.svg?branch=breadth-first-traversal)](https://travis-ci.com/pdkim/data-structure-and-algorithms)
+
 # Breadth First Traversal
 Write a function that should return every node's value in a list.  Should go down one level of the tree and go from left to right.
 
