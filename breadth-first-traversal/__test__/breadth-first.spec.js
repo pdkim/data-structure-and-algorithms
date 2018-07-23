@@ -9,7 +9,7 @@ describe('Breadth first module should', () => {
 
     tree.add(10);
 
-    let actual = tree.breadthFirst()
+    let actual = tree.breadthFirst();
 
     expect(actual).toEqual([10]);
   });
@@ -20,7 +20,9 @@ describe('Breadth first module should', () => {
     tree.add(10);
     tree.add(5);
 
-    expect(Tree.breadthFirst()).toEqual([10, 5]);
+    let actual = tree.breadthFirst();
+
+    expect(actual).toEqual([10, 5]);
   });
 
   xit('should print values of root, left, and right', () => {
@@ -30,6 +32,8 @@ describe('Breadth first module should', () => {
     tree.add(5);
     tree.add(15);
 
-    expect(Tree.breadthFirst(tree)).toEqual([10, 5, 15]);
+    let actual = tree.breadthFirst();
+
+    expect(actual).toEqual([10, 5, 15]);
   });
 });
