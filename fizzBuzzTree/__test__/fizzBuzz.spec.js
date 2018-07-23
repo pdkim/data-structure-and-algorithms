@@ -2,7 +2,7 @@
 
 const Tree = require('../lib/fizzBuzz.js');
 
-describe('FizzBuzz module should ', () => {
+xdescribe('FizzBuzz module should ', () => {
 
   it('change any value divided by 3 and 5 to FizzBuzz', () => {
     let tree = new Tree;
