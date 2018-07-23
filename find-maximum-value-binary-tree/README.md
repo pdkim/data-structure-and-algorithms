@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/pdkim/data-structure-and-algorithms.svg?branch=find-maximum-value-binary-tree)](https://travis-ci.com/pdkim/data-structure-and-algorithms)
+
 # Find Maximum Value
 Create a function that finds the largest value in a binary tree.
 
