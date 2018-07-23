@@ -12,4 +12,5 @@ Create a function that moves a set of "discs" from one column to another column.
 
 
 ## Solution
-![whiteboard](assets/)
+![whiteboard](assets/tower_of_hanoi_1.JPG)
+![whiteboard](assets/tower_of_hanoi_2.JPG)

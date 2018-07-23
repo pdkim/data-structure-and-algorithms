@@ -2,7 +2,7 @@
 
 const Shelter = require('../lib/fifo_animal_shelter.js');
 
-describe('Animal shelter should', () => {
+xdescribe('Animal shelter should', () => {
 
   it('add an animal to the end of the list', () => {
     
