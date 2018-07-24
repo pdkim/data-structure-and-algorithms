@@ -2,7 +2,7 @@
 
 const Tree = require('../lib/findMax.js');
 
-describe('Find max module should return', () => {
+xdescribe('Find max module should return', () => {
 
   it('the root value as the max value', () => {
     let tree = new Tree;

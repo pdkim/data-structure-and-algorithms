@@ -1,7 +1,7 @@
 'use strict';
 
-const name = require('../lib/name.js');
-console.log(name);
+//const name = require('../lib/name.js');
+//console.log(name);
 
 xdescribe('this is hard', () => {
 

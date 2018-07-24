@@ -54,7 +54,7 @@ class Tree {
 
     queue.push(this.root);
 
-    while(queue.length) {
+    while(queue.length !== 0) {
       currNode = queue[0];
       results.push(currNode.value);
 
@@ -65,6 +65,7 @@ class Tree {
       if(currNode.right) {
         queue.push(currNode.right);
       }
+      queue.shift();
     }
     
     return results;

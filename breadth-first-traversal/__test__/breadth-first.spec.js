@@ -2,9 +2,9 @@
 
 const Tree = require('../lib/breadth-first.js');
 
-xdescribe('Breadth first module should', () => {
+describe('Breadth first module should', () => {
 
-  xit('should print value of the root', () => {
+  it('should print value of the root', () => {
     let tree = new Tree;
 
     tree.add(10);
@@ -14,7 +14,7 @@ xdescribe('Breadth first module should', () => {
     expect(actual).toEqual([10]);
   });
 
-  xit('should print value of root and left', () => {
+  it('should print value of root and left', () => {
     let tree = new Tree;
 
     tree.add(10);
@@ -25,7 +25,7 @@ xdescribe('Breadth first module should', () => {
     expect(actual).toEqual([10, 5]);
   });
 
-  xit('should print values of root, left, and right', () => {
+  it('should print values of root, left, and right', () => {
     let tree = new Tree;
 
     tree.add(10);
