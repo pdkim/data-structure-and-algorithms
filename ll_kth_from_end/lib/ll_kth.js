@@ -1,27 +1,40 @@
 'use strict';
 
-function kthElement(head, k) {
-  if (!head || k < 0) {
+function kthElement(list, k) {
+  if (!list || k < 0) {
     return 'Exception';
   }
 
-  let current = head;
-  let kthCurrent = head;
+  let endofLine = 0;
+  let kthCurrent;
+  let pushTo = [];
+  
+  doThis(list.head, pushTo);
 
-  for (let i = 0; i < k - 1; i++) {
-    current = current.next;
-    if (!current) {
-      return undefined;
-    }
+
+  console.log(pushTo);
+
+  for(let i = pushTo.length; i > pushTo - k; i--) {
+    endofLine = pushTo[i];
   }
 
-  while (typeof current.next !== 'undefined') {
-    kthCurrent = kthCurrent.next;
-    current = current.next;
-  }
+  kthCurrent = pushTo[endofLine - 2];
 
   return kthCurrent;
 }
 
+
+function doThis(node, arr) {
+  while(node.next) {
+    arr.push(node.value);
+    node = node.next;
+    doThis(node, arr);
+
+    if(node.next === null) {
+      break;
+    }
+  }
+  return arr;
+}
 
 module.exports = kthElement;
