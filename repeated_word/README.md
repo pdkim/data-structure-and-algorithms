@@ -1,3 +1,6 @@
+#Travis
+[![Build Status](https://travis-ci.com/pdkim/data-structure-and-algorithms.svg?branch=repeated_word)](https://travis-ci.com/pdkim/data-structure-and-algorithms)
+
 # Repeated Word
 Create a function that will search a series of strings and return the first word that is repeated.
 
