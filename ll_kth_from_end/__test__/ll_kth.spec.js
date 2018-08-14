@@ -19,15 +19,12 @@ const list = {
   },
 };
 
-xdescribe('this is hard', () => {
+xdescribe('kth function should ', () => {
 
-  xit('testing', () => {
+  it('find the second to last value', () => {
     //first test
-    let actual = kth(1, 0);
-    console.log(actual);
-    let expected = list.head.next.next.next;
-    console.log(expected);
-    expect(actual).toEqual(expected);
+    let actual = kth(list, 0);
+    expect(actual).toBe(8);
   });
 
   xit('testing', () => {
